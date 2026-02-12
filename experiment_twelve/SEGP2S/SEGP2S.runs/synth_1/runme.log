@@ -1,0 +1,309 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue May 20 14:21:31 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/utils_1/imports/synth_1/Top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/utils_1/imports/synth_1/Top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Top -part xc7k160tffg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29164
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1051.504 ; gain = 470.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/clkdiv.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/clkdiv.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Load_Gen' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Load_Gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Load_Gen' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Load_Gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MyRegister4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/MyRegister4b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MyRegister4b' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/MyRegister4b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AddSub1b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:17]
+INFO: [Synth 8-6157] synthesizing module 'Adder1b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Adder1b' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'AddSub1b' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'AddSub4b' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/AddSub4b.v:36]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:53]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:62]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:70]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:78]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:86]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:94]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:102]
+WARNING: [Synth 8-689] width (4) of port connection 'Co' does not match port width (1) of module 'AddSub4b' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:110]
+INFO: [Synth 8-6157] synthesizing module 'MyMC14495' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/MyMC14495.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MyMC14495' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/MyMC14495.v:6]
+INFO: [Synth 8-6157] synthesizing module 'GenerateStart' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/GenerateStart.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'GenerateStart' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/GenerateStart.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SEG_DRV' [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/LED_DRV.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Shift_Register8bit' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2x1' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:6]
+INFO: [Synth 8-226] default block is never used [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2x1' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DIG_D_FF_1bit' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:23]
+	Parameter Default bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DIG_D_FF_1bit' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:23]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i1' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:55]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i1' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:55]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i3' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:69]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i3' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:69]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i5' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:83]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i5' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:83]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i7' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:97]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i7' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:97]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i9' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:111]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i9' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:111]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i11' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:125]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i11' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:125]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i13' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:139]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i13' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:139]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i15' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:153]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i15' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:153]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_Register8bit' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register8bit.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Shift_Register9bit' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:48]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i1' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:100]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i1' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:100]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i3' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:114]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i3' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:114]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i5' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:128]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i5' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:128]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i7' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:142]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i7' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:142]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i9' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:156]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i9' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:156]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i11' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:170]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i11' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:170]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i13' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:184]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i13' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:184]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i15' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:198]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i15' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:198]
+WARNING: [Synth 8-7071] port '~Q' of module 'DIG_D_FF_1bit' is unconnected for instance 'DIG_D_FF_1bit_i17' [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:212]
+WARNING: [Synth 8-7023] instance 'DIG_D_FF_1bit_i17' of module 'DIG_D_FF_1bit' has 4 connections declared, but only 3 given [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:212]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_Register9bit' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/Shift_Register9bit.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'SEG_DRV' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/LED_DRV.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/sources_1/new/Top.v:23]
+WARNING: [Synth 8-7129] Port clk_1ms in module Load_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[15] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[13] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[12] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[11] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[10] in module Top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1158.684 ; gain = 577.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1158.684 ; gain = 577.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1158.684 ; gain = 577.871
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1158.684 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/constrs_1/new/K7.xdc]
+Finished Parsing XDC File [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/constrs_1/new/K7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.srcs/constrs_1/new/K7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1248.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1248.617 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.617 ; gain = 667.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.617 ; gain = 667.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.617 ; gain = 667.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.617 ; gain = 667.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 32    
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	                4 Bit    Registers := 8     
+	                1 Bit    Registers := 85    
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 65    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Top has port SEG_EN driven by constant 1
+WARNING: [Synth 8-7129] Port SW[15] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[13] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[12] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[11] in module Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[10] in module Top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1248.617 ; gain = 667.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 1348.754 ; gain = 767.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1388.109 ; gain = 807.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1389.699 ; gain = 808.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |    17|
+|4     |LUT4 |     9|
+|5     |LUT5 |    10|
+|6     |LUT6 |    77|
+|7     |FDRE |   117|
+|8     |IBUF |    12|
+|9     |OBUF |     4|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:32 . Memory (MB): peak = 1577.070 ; gain = 906.324
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1577.070 ; gain = 996.258
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1586.281 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1592.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e32d52a3
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:43 . Memory (MB): peak = 1592.055 ; gain = 1222.227
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1592.055 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/Project/experiment_twelve/SEGP2S/SEGP2S.runs/synth_1/Top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 20 14:22:17 2025...

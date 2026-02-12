@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Tue Jun 10 19:33:27 2025
+# Process ID         : 34900
+# Current directory  : D:/project_sl/FPGA/project
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent30488 D:\project_sl\FPGA\project\Flappy_Bird.xpr
+# Log file           : D:/project_sl/FPGA/project/vivado.log
+# Journal file       : D:/project_sl/FPGA/project\vivado.jou
+# Running On         : firewheel
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33779 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 42905 MB
+# Available Virtual  : 20923 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/project_sl/FPGA/project/Flappy_Bird.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 10 19:33:57 2025...

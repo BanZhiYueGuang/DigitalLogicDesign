@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Lampctrl_sch_testbench_behav" "xil_defaultlib.Lampctrl_sch_testbench" "xil_defaultlib.glbl" -log "elaborate.log" 

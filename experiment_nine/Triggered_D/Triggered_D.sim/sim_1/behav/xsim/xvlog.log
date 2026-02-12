@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_nine/Triggered_D/Triggered_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Triggered_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_nine/Triggered_D/Triggered_D.srcs/sim_1/new/Triggered_D_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Triggered_D_testbench

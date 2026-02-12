@@ -1,0 +1,7 @@
+Running: xsim.dir/D_suo_cun_qi_testbench_behav/xsimk.exe -simmode gui -wdb D_suo_cun_qi_testbench_behav.wdb -simrunnum 0 -socket 55492
+Design successfully loaded
+Design Loading Memory Usage: 28720 KB (Peak: 28720 KB)
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 29536 KB (Peak: 29536 KB)
+Simulation CPU Usage: 124 ms

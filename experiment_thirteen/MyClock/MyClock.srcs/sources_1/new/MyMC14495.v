@@ -1,0 +1,55 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2025/05/20 14:58:46
+// Design Name: 
+// Module Name: MyMC14495
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module MyMC14495 (
+  input D3,
+  input D2,
+  input D1,
+  input D0,
+  input LE,
+  input point,
+  output a,
+  output b,
+  output c,
+  output d,
+  output e,
+  output f,
+  output g,
+  output p
+);
+  wire s0;
+  wire s1;
+  wire s2;
+  wire s3;
+  assign s3 = ~ D3;
+  assign s1 = ~ D2;
+  assign s0 = ~ D1;
+  assign s2 = ~ D0;
+  assign p = ~ point;
+  assign g = (((s0 & s1 & s3) | (D0 & D1 & D2 & s3) | (s2 & s0 & D2 & D3)) | LE);
+  assign f = (((D0 & s1 & s3) | (D1 & s1 & s3) | (D0 & D1 & s3) | (D0 & s0 & D2 & D3)) | LE);
+  assign e = (((D0 & s3) | (s0 & D2 & s3) | (D0 & s0 & s1)) | LE);
+  assign d = (((D0 & s0 & s1 & s3) | (s2 & s0 & D2 & s3) | (D0 & D1 & D2) | (s2 & D1 & s1 & D3)) | LE);
+  assign c = (((s2 & D1 & s1 & s3) | (s2 & D2 & D3) | (D1 & D2 & D3)) | LE);
+  assign b = (((D0 & s0 & D2 & s3) | (s2 & D1 & D2) | (s2 & D2 & D3) | (D0 & D1 & D3)) | LE);
+  assign a = (((D0 & s0 & s1 & s3) | (s2 & s0 & D2 & s3) | (D0 & D1 & s1 & D3) | (D0 & s0 & D2 & D3)) | LE);
+endmodule

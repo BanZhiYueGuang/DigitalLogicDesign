@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_thirteen/My74LS141/My74LS141.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My74LS161
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_thirteen/My74LS141/My74LS141.srcs/sim_1/new/Top_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_testbench

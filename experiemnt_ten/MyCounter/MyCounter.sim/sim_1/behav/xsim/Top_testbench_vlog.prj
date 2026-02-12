@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MyCounter.srcs/sources_1/new/DisplayNumber.v" \
+"../../../../MyMC14495.v" \
+"../../../../MyCounter.srcs/sources_1/new/Top.v" \
+"../../../../MyCounter.srcs/sources_1/new/counter_1s.v" \
+"../../../../counter_4bit.v" \
+"../../../../MyCounter.srcs/sim_1/new/Top_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

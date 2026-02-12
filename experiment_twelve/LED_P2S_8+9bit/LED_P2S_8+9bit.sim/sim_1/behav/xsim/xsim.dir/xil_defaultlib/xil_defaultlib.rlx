@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/AddSub4b.v,1746515355,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/DispNum.v,,AddSub1b;AddSub4b;Adder1b,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/DispNum.v,1746515510,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_DRV.v,,Decoder2;DispNum;Mux4to1;Mux4to1b4;MyMC14495,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_DRV.v,1747745532,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Load_Gen.v,,LED_DRV,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_P2S_8+9bit.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_P2S_8+9bit.srcs/sim_1/new/Top_testbench.v,1747745614,verilog,,,,Top_testbench,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Load_Gen.v,1746608377,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/MyRegister4b.v,,Load_Gen,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/MyRegister4b.v,1746515410,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Shift_Register8bit.v,,MyRegister4b,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Shift_Register8bit.v,1746516931,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Shift_Register9bit.v,,Shift_Register8bit,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Shift_Register9bit.v,1746516825,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v,,DIG_D_FF_1bit;Mux_2x1;Shift_Register9bit,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v,1747744868,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/clkdiv.v,,Top,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/clkdiv.v,1746515425,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/pbdebounce.v,,clkdiv,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/pbdebounce.v,1746515484,verilog,,D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_P2S_8+9bit.srcs/sim_1/new/Top_testbench.v,,pbdebounce,,,,,,,,

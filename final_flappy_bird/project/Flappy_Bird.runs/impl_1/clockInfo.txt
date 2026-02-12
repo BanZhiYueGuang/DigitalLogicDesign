@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2024.2.1
+| Date         : Sun Jun 22 18:15:44 2025
+| Host         : firewheel
+| Design       : design_1
+| Device       : xc7k160t-ffg676-1--
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+

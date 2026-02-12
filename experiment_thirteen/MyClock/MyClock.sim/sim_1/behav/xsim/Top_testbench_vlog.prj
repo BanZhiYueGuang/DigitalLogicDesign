@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MyClock.srcs/sources_1/new/Load_Gen.v" \
+"../../../../MyClock.srcs/sources_1/new/My74LS161.v" \
+"../../../../MyClock.srcs/sources_1/new/My74LS161_6.v" \
+"../../../../MyClock.srcs/sources_1/new/MyMC14495.v" \
+"../../../../MyClock.srcs/sources_1/new/SEG_DRV.v" \
+"../../../../MyClock.srcs/sources_1/new/Shift_Register8bit.v" \
+"../../../../MyClock.srcs/sources_1/new/Shift_Register9bit.v" \
+"../../../../MyClock.srcs/sources_1/new/Top.v" \
+"../../../../MyClock.srcs/sources_1/new/clk_div.v" \
+"../../../../MyClock.srcs/sim_1/new/Top_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

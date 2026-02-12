@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sim_1/new/Shift_Register8bit_testbench.v,1746455938,verilog,,,,Shift_Register8bit_testbench,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sources_1/new/CreatingD.v,1746449777,verilog,,D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sources_1/new/Shift_Register8b.v,,CreatingD,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sources_1/new/Shift_Register8b.v,1746455609,verilog,,D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sources_1/new/Triggered_D.v,,Shift_Register8b,,,,,,,,
+D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sources_1/new/Triggered_D.v,1744791359,verilog,,D:/Xilinx/Project/experiment_twelve/Shift_Register8bit/Shift_Register8bit.srcs/sim_1/new/Shift_Register8bit_testbench.v,,Triggered_D,,,,,,,,

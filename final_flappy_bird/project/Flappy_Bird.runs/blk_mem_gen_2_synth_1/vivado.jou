@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Tue Jun 10 15:42:49 2025
+# Process ID         : 17900
+# Current directory  : D:/project_sl/FPGA/project/Flappy_Bird.runs/blk_mem_gen_2_synth_1
+# Command line       : vivado.exe -log blk_mem_gen_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_2.tcl
+# Log file           : D:/project_sl/FPGA/project/Flappy_Bird.runs/blk_mem_gen_2_synth_1/blk_mem_gen_2.vds
+# Journal file       : D:/project_sl/FPGA/project/Flappy_Bird.runs/blk_mem_gen_2_synth_1\vivado.jou
+# Running On         : firewheel
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33779 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 42905 MB
+# Available Virtual  : 21522 MB
+#-----------------------------------------------------------
+source blk_mem_gen_2.tcl -notrace

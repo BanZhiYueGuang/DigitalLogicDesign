@@ -1,0 +1,2117 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Sun Jun 22 18:16:57 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : report_methodology -file FlappyBird_methodology_drc_routed.rpt -pb FlappyBird_methodology_drc_routed.pb -rpx FlappyBird_methodology_drc_routed.rpx
+| Design       : FlappyBird
+| Device       : xc7k160tffg676-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 410
++-----------+------------------+-------------------------------+--------+
+| Rule      | Severity         | Description                   | Checks |
++-----------+------------------+-------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 329    |
+| LUTAR-1   | Warning          | LUT drives async reset alert  | 8      |
+| SYNTH-10  | Warning          | Wide multiplier               | 30     |
+| TIMING-16 | Warning          | Large setup violation         | 18     |
+| TIMING-18 | Warning          | Missing input or output delay | 25     |
++-----------+------------------+-------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/bird_y_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_bird/cnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/cnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_x_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/fire_y_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/out_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[13]_srl4/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[18]_srl5/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/pipe_gen/rand_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/randconv_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/score_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_x_pos_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube1_y_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_x_pos_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube2_y_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_x_pos_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin draw_tubes/tube3_y_pos_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbreg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin m0/pbshift_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ClockSiganl/clk_div_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/hundreds_digit_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/hundreds_digit_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ones_digit_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ones_digit_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ones_digit_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/ones_digit_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/tens_digit_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/tens_digit_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/tens_digit_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Critical Warning
+Non-clocked sequential cell  
+The clock pin score_display/tens_digit_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/LED_D0_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/finish_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m1/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i17/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m2/DIG_D_FF_1bit1_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m3/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m4/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m5/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#213 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#214 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#215 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#216 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#217 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#218 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m6/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#219 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#220 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#221 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#222 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#223 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#224 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#225 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#226 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m7/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#227 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i1/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#228 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i11/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#229 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i13/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#230 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i15/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#231 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i3/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#232 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i5/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#233 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i7/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#234 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/SEGDRV_inst/m8/DIG_D_FF_1bit_i9/state_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#235 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hf_inst/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#236 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hf_inst/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#237 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hf_inst/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#238 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hf_inst/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#239 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hs_inst/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#240 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hs_inst/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#241 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hs_inst/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#242 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/hs_inst/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#243 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/m1/load_out_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#244 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/m1/old_btn_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#245 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/mf_inst/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#246 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/mf_inst/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#247 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/mf_inst/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#248 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/mf_inst/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#249 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ms_inst1/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#250 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ms_inst1/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#251 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ms_inst1/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#252 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ms_inst1/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#253 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/sf_inst/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#254 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/sf_inst/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#255 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/sf_inst/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#256 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/sf_inst/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#257 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ss_inst/m1/Q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#258 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ss_inst/m1/Q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#259 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ss_inst/m1/Q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#260 Critical Warning
+Non-clocked sequential cell  
+The clock pin uut1/ss_inst/m1/Q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#261 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#262 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#263 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#264 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#265 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#266 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#267 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#268 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#269 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#270 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/add_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#271 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/blue_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#272 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/blue_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#273 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/blue_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#274 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/blue_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#275 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/cnt_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#276 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/green_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#277 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/green_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#278 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/green_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#279 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/green_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#280 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/pipe_addr_down_reg/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#281 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/pipe_addr_up_reg/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#282 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/red_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#283 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/red_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#284 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/red_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#285 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/red_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#286 Critical Warning
+Non-clocked sequential cell  
+The clock pin vga_bitgen/roof_addr_reg/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#287 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#288 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#289 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#290 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#291 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#292 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#293 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#294 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#295 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#296 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/col_addr_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#297 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#298 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#299 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#300 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#301 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#302 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#303 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#304 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#305 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#306 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/h_count_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#307 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/hs_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#308 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/rdn_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#309 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#310 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#311 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#312 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#313 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#314 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#315 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#316 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#317 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#318 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/row_addr_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#319 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#320 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#321 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#322 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#323 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#324 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#325 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#326 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#327 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#328 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/v_count_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#329 Critical Warning
+Non-clocked sequential cell  
+The clock pin vgac_/vs_reg/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell GenerateRedraw/cnt[4]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) draw_tubes/tube3_x_pos_reg[4]/PRE, draw_tubes/tube3_x_pos_reg[5]/PRE,
+draw_tubes/tube3_x_pos_reg[6]/CLR, draw_tubes/tube3_x_pos_reg[7]/CLR,
+draw_tubes/tube3_x_pos_reg[8]/CLR, draw_tubes/tube3_x_pos_reg[9]/PRE,
+draw_tubes/tube3_y_pos_reg[0]/CLR, draw_tubes/tube3_y_pos_reg[1]/CLR,
+draw_tubes/tube3_y_pos_reg[2]/CLR, draw_tubes/tube3_y_pos_reg[3]/PRE,
+draw_tubes/tube3_y_pos_reg[4]/CLR, draw_tubes/tube3_y_pos_reg[5]/CLR,
+draw_tubes/tube3_y_pos_reg[6]/PRE, draw_tubes/tube3_y_pos_reg[7]/PRE,
+draw_tubes/tube3_y_pos_reg[8]/CLR (the first 15 of 93 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell keyb/count[26]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) nolabel_line268/music_mem_inst/music_reg[0]_rep_replica_2/CLR,
+nolabel_line268/music_mem_inst/music_reg[0]_rep_replica_3/CLR,
+nolabel_line268/music_mem_inst/music_reg[0]_rep_replica_4/CLR,
+nolabel_line268/music_mem_inst/music_reg[1]_rep_replica/CLR,
+nolabel_line268/music_mem_inst/music_reg[1]_rep_replica_1/CLR,
+nolabel_line268/music_mem_inst/music_reg[1]_rep_replica_2/CLR,
+nolabel_line268/music_mem_inst/music_reg[1]_rep_replica_3/CLR,
+nolabel_line268/music_mem_inst/music_reg[1]_rep_replica_4/CLR,
+nolabel_line268/music_mem_inst/music_reg[2]_rep_replica/CLR,
+nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_1/CLR,
+nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_2/CLR,
+nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_5/CLR,
+nolabel_line268/music_mem_inst/music_reg[3]_rep_replica/CLR,
+nolabel_line268/music_mem_inst/music_reg[3]_rep_replica_1/CLR,
+nolabel_line268/music_mem_inst/music_reg[3]_rep_replica_2/CLR
+ (the first 15 of 129 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell uut1/hf_inst/m1/Q[3]_i_3__1, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/hf_inst/m1/Q_reg[0]/CLR, uut1/hf_inst/m1/Q_reg[1]/CLR,
+uut1/hf_inst/m1/Q_reg[2]/CLR, uut1/hf_inst/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell uut1/hf_inst/m1/Q[3]_i_3__2, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/hs_inst/m1/Q_reg[0]/CLR, uut1/hs_inst/m1/Q_reg[1]/CLR,
+uut1/hs_inst/m1/Q_reg[2]/CLR, uut1/hs_inst/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell uut1/mf_inst/m1/Q[3]_i_3__0, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/mf_inst/m1/Q_reg[0]/CLR, uut1/mf_inst/m1/Q_reg[1]/CLR,
+uut1/mf_inst/m1/Q_reg[2]/CLR, uut1/mf_inst/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell uut1/ms_inst1/m1/Q[3]_i_3__4, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/ms_inst1/m1/Q_reg[0]/CLR, uut1/ms_inst1/m1/Q_reg[1]/CLR,
+uut1/ms_inst1/m1/Q_reg[2]/CLR, uut1/ms_inst1/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#7 Warning
+LUT drives async reset alert  
+LUT cell uut1/sf_inst/m1/Q[3]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/sf_inst/m1/Q_reg[0]/CLR, uut1/sf_inst/m1/Q_reg[1]/CLR,
+uut1/sf_inst/m1/Q_reg[2]/CLR, uut1/sf_inst/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#8 Warning
+LUT drives async reset alert  
+LUT cell uut1/ss_inst/m1/Q[3]_i_3__3, with 2 or more inputs, drives asynchronous preset/clear pin(s) uut1/ss_inst/m1/Q_reg[0]/CLR, uut1/ss_inst/m1/Q_reg[1]/CLR,
+uut1/ss_inst/m1/Q_reg[2]/CLR, uut1/ss_inst/m1/Q_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2__1 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2__2 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2__3 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at crash_detect/crash2__4 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__1 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__10 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__11 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__12 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#13 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__13 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#14 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__14 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#15 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__15 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#16 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__16 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#17 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__17 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#18 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__18 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#19 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__19 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#20 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__2 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#21 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__20 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#22 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__21 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#23 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__22 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#24 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__3 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#25 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__4 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#26 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__5 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#27 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__6 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#28 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__7 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#29 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__8 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#30 Warning
+Wide multiplier  
+Detected multiplier at vga_bitgen/roof_addr4__9 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.920 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[17]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -10.647 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[10]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -11.895 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[9]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -13.195 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[8]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -14.407 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[7]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -15.786 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[6]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -17.051 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[5]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -18.353 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[4]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -19.553 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[3]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -20.936 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[2]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -22.245 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[1]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -23.418 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[0]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -3.173 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[16]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -4.430 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[15]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -5.636 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[14]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -6.830 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[13]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -8.162 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[12]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -9.422 ns between nolabel_line268/music_mem_inst/music_reg[2]_rep_replica_4/C (clocked by clk100MHZ) and nolabel_line268/cal_divnum_inst/divnum_reg[11]/D (clocked by clk100MHZ). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on SW[10] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on SW[11] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on SW[12] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on SW[13] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on SW[14] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on SW[15] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on SW[3] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on SW[4] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on SW[5] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on SW[6] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on SW[7] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on SW[8] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on SW[9] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on ps2_clk relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on ps2_data relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on LED[0] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on LED[1] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on LED[2] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on LED[3] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on LED[4] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on LED[5] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on LED[6] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on LED[7] relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on SEGCLK relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on beep relative to the rising and/or falling clock edge(s) of clk100MHZ.
+Related violations: <none>
+
+

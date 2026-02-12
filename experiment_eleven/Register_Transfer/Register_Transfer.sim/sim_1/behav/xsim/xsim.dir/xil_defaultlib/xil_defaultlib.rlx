@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sim_1/new/Top_testbench.v,1746436670,verilog,,,,Top_testbench,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/AddSub4b.v,1746005773,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Disp_Num.v,,AddSub1b;AddSub4b;Adder1b,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Disp_Num.v,1746005974,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Load_Gen.v,,Decoder2;DispNum;Mux4to1;Mux4to1b4;MyMC14495,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Load_Gen.v,1746005631,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/MyRegister4b.v,,Load_Gen,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/MyRegister4b.v,1746005692,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Top.v,,MyRegister4b,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/Top.v,1746433830,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/clkdiv.v,,Top,,,,,,,,
+D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sources_1/new/clkdiv.v,1746006070,verilog,,D:/Xilinx/Project/experiment_eleven/Register_Transfer/Register_Transfer.srcs/sim_1/new/Top_testbench.v,,clkdiv,,,,,,,,

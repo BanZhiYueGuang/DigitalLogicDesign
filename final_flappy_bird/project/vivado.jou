@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Sun Jun 22 16:57:00 2025
+# Process ID         : 32356
+# Current directory  : D:/project_sl/FPGA/project
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent37320 D:\project_sl\FPGA\project\Flappy_Bird.xpr
+# Log file           : D:/project_sl/FPGA/project/vivado.log
+# Journal file       : D:/project_sl/FPGA/project\vivado.jou
+# Running On         : firewheel
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33779 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 42905 MB
+# Available Virtual  : 27993 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/project_sl/FPGA/project/Flappy_Bird.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/project_sl/FPGA/project/Flappy_Bird.srcs/sources_1/imports/Flappy-Bird-master/SignalFrequency_bb.v] -no_script -reset -force -quiet
+remove_files  D:/project_sl/FPGA/project/Flappy_Bird.srcs/sources_1/imports/Flappy-Bird-master/SignalFrequency_bb.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 11
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/project_sl/FPGA/project/Flappy_Bird.runs/impl_1/FlappyBird.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/project_sl/FPGA/project/Flappy_Bird.runs/impl_1/FlappyBird.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]

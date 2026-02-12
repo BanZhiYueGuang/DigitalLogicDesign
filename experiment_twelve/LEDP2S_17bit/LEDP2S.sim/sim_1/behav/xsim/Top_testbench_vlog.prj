@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LEDP2S.srcs/sources_1/new/AddSub4b.v" \
+"../../../../LEDP2S.srcs/sources_1/new/DispNum.v" \
+"../../../../LEDP2S.srcs/sources_1/new/LED_DRV.v" \
+"../../../../LEDP2S.srcs/sources_1/new/Load_Gen.v" \
+"../../../../LEDP2S.srcs/sources_1/new/Load_GenWithoutpb.v" \
+"../../../../LEDP2S.srcs/sources_1/new/MyRegister4b.v" \
+"../../../../LEDP2S.srcs/sources_1/new/Shift_Register17bit.v" \
+"../../../../LEDP2S.srcs/sources_1/new/Top.v" \
+"../../../../LEDP2S.srcs/sources_1/new/clkdiv.v" \
+"../../../../LEDP2S.srcs/sources_1/new/pbdebounce.v" \
+"../../../../LEDP2S.srcs/sim_1/new/Top_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

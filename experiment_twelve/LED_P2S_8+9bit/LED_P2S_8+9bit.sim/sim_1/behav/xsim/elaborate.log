@@ -1,0 +1,22 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_testbench_behav xil_defaultlib.Top_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load_out' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:49]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:51]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Co' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:53]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load_out' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:57]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Co' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:61]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load_out' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:65]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Co' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:69]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load_out' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:73]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Co' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:77]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 9 for port 'par_in' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/LED_DRV.v:46]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:59]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:67]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Load' [D:/Xilinx/Project/experiment_twelve/LED_P2S_8+9bit/Top.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

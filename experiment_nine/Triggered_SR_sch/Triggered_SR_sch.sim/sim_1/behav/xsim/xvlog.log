@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gate_SR_suo_cun_qi
+INFO: [VRFC 10-311] analyzing module Triggered_SR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered_SR_sch.srcs/sim_1/new/Triggered_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Triggered_testbench

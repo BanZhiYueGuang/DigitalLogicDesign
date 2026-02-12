@@ -1,0 +1,100 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Tue Jun 10 15:40:31 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_4 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Tue Jun 10 15:40:30 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_3 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Tue Jun 10 15:40:27 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_2 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Tue Jun 10 15:40:26 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_1 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Tue Jun 10 15:40:26 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 9) to (Rev. 10)
+

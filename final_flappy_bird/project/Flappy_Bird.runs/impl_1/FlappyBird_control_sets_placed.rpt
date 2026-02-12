@@ -1,0 +1,119 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Sun Jun 22 18:16:10 2025
+| Host         : firewheel running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FlappyBird_control_sets_placed.rpt
+| Design       : FlappyBird
+| Device       : xc7k160t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    41 |
+|    Minimum number of control sets                        |    41 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   191 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    41 |
+| >= 0 to < 4        |     9 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             227 |          109 |
+| No           | No                    | Yes                    |             102 |           54 |
+| No           | Yes                   | No                     |              81 |           29 |
+| Yes          | No                    | No                     |              55 |           26 |
+| Yes          | No                    | Yes                    |             123 |           40 |
+| Yes          | Yes                   | No                     |               5 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+--------------------------------------+-----------------------------------+------------------+----------------+--------------+
+|      Clock Signal      |             Enable Signal            |          Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------+--------------------------------------+-----------------------------------+------------------+----------------+--------------+
+|  m0/btn                |                                      |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[7]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[4]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[0]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[2]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[3]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[1]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[5]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/temp_data[6]_i_1_n_0            |                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG         | keyb/p_0_in                          |                                   |                2 |              4 |         2.00 |
+|  uut1/clk_100_inst/CLK | uut1/hf_inst/m1/Q[3]_i_1__1_n_0      | uut1/hf_inst/m1/Q[3]_i_3__1_n_0   |                1 |              4 |         4.00 |
+|  uut1/clk_100_inst/CLK | uut1/hf_inst/m1/E[0]                 | uut1/hf_inst/m1/Q_reg[2]_0        |                1 |              4 |         4.00 |
+|  uut1/clk_100_inst/CLK | uut1/mf_inst/m1/Q[3]_i_1__3_n_0      | uut1/mf_inst/m1/Q[3]_i_3__0_n_0   |                1 |              4 |         4.00 |
+|  uut1/clk_100_inst/CLK | uut1/sf_inst/m1/Q[3]_i_1_n_0         | uut1/sf_inst/m1/Q[3]_i_3_n_0      |                1 |              4 |         4.00 |
+|  uut1/clk_100_inst/CLK | uut1/ms_inst1/m1/Q[3]_i_1__2_n_0     | uut1/ms_inst1/m1/Q[3]_i_3__4_n_0  |                1 |              4 |         4.00 |
+|  uut1/clk_100_inst/CLK | uut1/ss_inst/m1/Q[3]_i_1__4_n_0      | uut1/ss_inst/m1/Q[3]_i_3__3_n_0   |                1 |              4 |         4.00 |
+|  clk10_BUFG            | draw_bird/cnt0                       | GenerateRedraw/Load_out_reg_0     |                2 |              5 |         2.50 |
+|  clk10_BUFG            | draw_tubes/cnt0                      | GenerateRedraw/Load_out_reg_0     |                2 |              5 |         2.50 |
+|  clk10_BUFG            | draw_tubes/randconv[8]_i_1_n_0       | draw_tubes/fire_x[8]_i_1_n_0      |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG         | nolabel_line268/speed_ctrl_inst/cnt0 | keyb/enter_reg_0                  |                1 |              6 |         6.00 |
+|  clk10_BUFG            | draw_tubes/score[7]_i_1_n_0          | GenerateRedraw/Load_out_reg_0     |                3 |              8 |         2.67 |
+|  fenpin/out[0]         |                                      |                                   |                2 |              8 |         4.00 |
+|  clk10_BUFG            | draw_bird/bird_y_pos[8]_i_1_n_0      | GenerateRedraw/Load_out_reg_0     |                4 |              9 |         2.25 |
+|  clk10_BUFG            | draw_tubes/fire_y[8]_i_1_n_0         | GenerateRedraw/Load_out_reg_0     |                3 |              9 |         3.00 |
+|  clk10_BUFG            | draw_tubes/tube1_y_pos[8]_i_1_n_0    | GenerateRedraw/Load_out_reg_0     |                4 |              9 |         2.25 |
+|  clk10_BUFG            | draw_tubes/tube3_y_pos[8]_i_1_n_0    | GenerateRedraw/Load_out_reg_0     |                3 |              9 |         3.00 |
+|  clk10_BUFG            | draw_tubes/tube2_y_pos[8]_i_1_n_0    | GenerateRedraw/Load_out_reg_0     |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | keyb/data[9]_i_1_n_0                 |                                   |                2 |             10 |         5.00 |
+|  vgaclk_BUFG           |                                      | vgac_/v_count                     |                6 |             10 |         1.67 |
+|  vgaclk_BUFG           | vgac_/v_count                        |                                   |                5 |             10 |         2.00 |
+|  vgaclk_BUFG           | vgac_/E[0]                           |                                   |                4 |             10 |         2.50 |
+|  clk10_BUFG            | draw_tubes/randconv[8]_i_1_n_0       |                                   |                5 |             13 |         2.60 |
+|  clk10_BUFG            |                                      |                                   |                7 |             19 |         2.71 |
+|  div[0]                |                                      | uut1/m1/load_out                  |                9 |             22 |         2.44 |
+|  clk_IBUF_BUFG         |                                      | signalfrequency/count[22]_i_1_n_0 |                7 |             23 |         3.29 |
+|  clk_IBUF_BUFG         |                                      | uut1/clk_100_inst/clear           |                7 |             26 |         3.71 |
+|  clk10_BUFG            | draw_tubes/tube2_x_pos[9]_i_1_n_0    | GenerateRedraw/Load_out_reg_0     |                9 |             30 |         3.33 |
+|  div[0]                |                                      |                                   |               19 |             47 |         2.47 |
+|  vgaclk_BUFG           |                                      |                                   |               25 |             64 |         2.56 |
+|  clk_IBUF_BUFG         |                                      |                                   |               55 |             90 |         1.64 |
+|  clk_IBUF_BUFG         |                                      | keyb/enter_reg_0                  |               54 |            102 |         1.89 |
++------------------------+--------------------------------------+-----------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_five/D_74LS138_SCH/D_74LS138.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_74LS138
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_five/D_74LS138_SCH/D_74LS138_SCH.srcs/sim_1/new/D_74LS138_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_74LS138_testbench

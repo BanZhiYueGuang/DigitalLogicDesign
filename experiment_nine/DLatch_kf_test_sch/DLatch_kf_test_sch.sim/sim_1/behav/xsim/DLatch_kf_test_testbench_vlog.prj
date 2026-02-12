@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DLatch_kf_test.v" \
+"../../../../DLatch_kf_test_sch.srcs/sim_1/new/DLatch_kf_test_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

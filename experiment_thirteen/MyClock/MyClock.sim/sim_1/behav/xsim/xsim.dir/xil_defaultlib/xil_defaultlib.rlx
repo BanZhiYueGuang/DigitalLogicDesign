@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sim_1/new/Top_testbench.v,1747824447,verilog,,,,Top_testbench,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sim_1/new/Transfer_testbench.v,1747726908,verilog,,,,Transfer_testbench,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Generate_Start.v,1747820162,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Load_Gen.v,,GenerateStart,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Load_Gen.v,1747806469,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/My74LS161.v,,Load_Gen,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/My74LS161.v,1747823050,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/My74LS161_6.v,,My74LS161_10,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/My74LS161_6.v,1747823047,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/MyMC14495.v,,My74LS161_6,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/MyMC14495.v,1747724442,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/SEG_DRV.v,,MyMC14495,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/SEG_DRV.v,1747724239,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Shift_Register8bit.v,,SEG_DRV,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Shift_Register8bit.v,1747724499,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Shift_Register9bit.v,,Shift_Register8bit,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Shift_Register9bit.v,1747724525,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Top.v,,DIG_D_FF_1bit;Mux_2x1;Shift_Register9bit,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Top.v,1747824499,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/clk_div.v,,Top,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/Transfer.v,1747727091,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sim_1/new/Transfer_testbench.v,,BinaryToBCD,,,,,,,,
+D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sources_1/new/clk_div.v,1747724220,verilog,,D:/Xilinx/Project/experiment_thirteen/MyClock/MyClock.srcs/sim_1/new/Top_testbench.v,,clkdiv,,,,,,,,

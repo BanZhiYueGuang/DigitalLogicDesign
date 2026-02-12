@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/AddSub4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1b
+INFO: [VRFC 10-311] analyzing module AddSub1b
+INFO: [VRFC 10-311] analyzing module AddSub4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/DispNum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder2
+INFO: [VRFC 10-311] analyzing module Mux4to1
+INFO: [VRFC 10-311] analyzing module Mux4to1b4
+INFO: [VRFC 10-311] analyzing module MyMC14495
+INFO: [VRFC 10-311] analyzing module DispNum
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/Counter_JiCunQi.srcs/sources_1/new/Load_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Load_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/Counter_JiCunQi.srcs/sources_1/new/MyRegister4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyRegister4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/Counter_JiCunQi.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/clkdiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_eleven/Counter_JiCunQi/Counter_JiCunQi.srcs/sim_1/new/Top_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_testbench

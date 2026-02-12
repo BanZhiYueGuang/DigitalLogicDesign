@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_four/Lampctrl_HDL/Lampctrl_HDL.srcs/sources_1/new/LampCtrl_HDL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl_HDL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Project/experiment_four/Lampctrl_HDL/Lampctrl_HDL.srcs/sim_1/new/LampCtrl_HDL_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl_HDL_testbench

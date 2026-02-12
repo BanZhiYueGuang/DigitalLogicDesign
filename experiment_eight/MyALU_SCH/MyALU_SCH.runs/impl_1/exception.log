@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\Xilinx\Project\experiment_eight\MyALU_SCH\MyALU_SCH.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 没有权限

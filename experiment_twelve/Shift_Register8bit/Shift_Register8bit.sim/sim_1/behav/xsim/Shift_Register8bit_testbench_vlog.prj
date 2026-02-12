@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Shift_Register8bit.srcs/sources_1/new/CreatingD.v" \
+"../../../../Shift_Register8bit.srcs/sources_1/new/Shift_Register8b.v" \
+"../../../../Shift_Register8bit.srcs/sources_1/new/Triggered_D.v" \
+"../../../../Shift_Register8bit.srcs/sim_1/new/Shift_Register8bit_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

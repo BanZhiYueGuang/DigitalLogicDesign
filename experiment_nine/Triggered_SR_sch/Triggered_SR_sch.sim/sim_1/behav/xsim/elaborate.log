@@ -1,0 +1,22 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Triggered_testbench_behav xil_defaultlib.Triggered_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 21. Module Triggered_SR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 6. Module gate_SR_suo_cun_qi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 6. Module gate_SR_suo_cun_qi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 21. Module Triggered_SR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 6. Module gate_SR_suo_cun_qi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Xilinx/Project/experiment_nine/Triggered_SR_sch/Triggered SR.v" Line 6. Module gate_SR_suo_cun_qi doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gate_SR_suo_cun_qi
+Compiling module xil_defaultlib.Triggered_SR
+Compiling module xil_defaultlib.Triggered_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Triggered_testbench_behav

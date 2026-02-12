@@ -1,0 +1,7 @@
+Running: xsim.dir/Triggered_D_testbench_behav/xsimk.exe -simmode gui -wdb Triggered_D_testbench_behav.wdb -simrunnum 0 -socket 52417
+Design successfully loaded
+Design Loading Memory Usage: 28684 KB (Peak: 28684 KB)
+Design Loading CPU Usage: 281 ms
+Simulation completed
+Simulation Memory Usage: 29508 KB (Peak: 29508 KB)
+Simulation CPU Usage: 311 ms
